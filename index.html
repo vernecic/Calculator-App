@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="display" readonly />
+      <div id="btns">
+        <button class="btn number" value="7">7</button>
+        <button class="btn number" value="8">8</button>
+        <button class="btn number" value="9">9</button>
+        <button class="btn operator plus" value="+">+</button>
+        <button class="btn number" value="4">4</button>
+        <button class="btn number" value="5">5</button>
+        <button class="btn number" value="6">6</button>
+        <button class="btn operator minus" value="-">-</button>
+        <button class="btn number" value="1">1</button>
+        <button class="btn number" value="2">2</button>
+        <button class="btn number" value="3">3</button>
+        <button class="btn operator times" value="*">*</button>
+        <button class="btn number" value="0">0</button>
+        <button class="btn number" value="." class="decimal">.</button>
+        <button class="btn equal">=</button>
+        <!-- myb dodat operator-->
+        <button class="btn operator divide" value="/">/</button>
+        <button class="btn" class="reset" onclick="resetDisplay()">C</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
